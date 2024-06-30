@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+         <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+
+        .signin-container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            text-align: center;
+        }
+
+        h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input {
+            margin-bottom: 15px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        select {
+            margin-bottom: 20px;
+        }
+    </style> 
+
+</head>
+
+<body>
+    <div class="signin-container">
+        <h2>Register</h2>
+        <form action="/register" method="post">
+
+            <label for="name">Name:</label>
+            <input type="name" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="number">Contact Number:</label>
+            <input type="number" id="number" name="number" required>
+
+            <label for="hostel">Select your Hostel:</label>
+            <select id="hostel" name="hostel" required>
+              <option value="" disabled selected>Select a Hostel</option>
+              <option value="Aryabhatta">Aryabhatta</option>
+              <option value="Anandi">Anandi</option>
+              <option value="Bhabha">Bhabha</option>
+              <option value="Bhaskara">Bhaskara</option>
+              <option value="Brahmagupta">Brahmagupta</option>
+              <option value="Charaka">Charaka</option>
+              <option value="Gargi">Gargi</option>
+              <option value="Kalam">Kalam</option>
+              <option value="Kapila">Kapila</option>
+              <option value="Kautilya">Kautilya</option>
+              <option value="Maitreyi">Maitreyi</option>
+              <option value="Raman">Raman</option>
+              <option value="Ramanuja">Ramanuja</option>
+              <option value="Ramanujan">Ramanujan</option>
+              <option value="Sarabhai">Sarabhai</option>
+              <option value="Susruta">Susruta</option>
+              <option value="Varahamihira">Varahamihira</option>
+              <option value="Visvesvaraya">Visvesvaraya</option>
+              <option value="Vyasa">Vyasa</option>
+            </select>
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+</body>
+
+</html>

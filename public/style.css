@@ -1,0 +1,157 @@
+.cover {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 885px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    padding: 250px 125px;
+    background-image: url(../images/cover.jpg);
+}
+
+.left-content {
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-us {
+    margin-top: 200px;
+}
+
+.heading {
+    color: #d3d3d3;
+    margin-bottom: 40px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.matter {
+    color: grey;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.custom-card-1 {
+    background-color: #d3d3d3;
+}
+
+.custom-card-2 {
+    background-color: grey;
+}
+
+.cover-title {
+    color: rgb(228, 162, 40);
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 75px;
+}
+
+.cover-disc {
+    color: rgb(196, 199, 193);
+    font-size: 20px;
+}
+
+.logo {
+    width: 65px;
+    margin-left: 10px;
+}
+
+.nav-pills .nav-link {
+    color: rgb(196, 199, 193);
+}
+
+.footHead {
+    color: #d3d3d3;
+}
+
+.text-body-primary {
+    color: #d3d3d3;
+}
+
+.text-body-t {
+    color: black;
+}
+
+.icon svg {
+    fill: aqua;
+}
+
+.FooterC {
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 200px;
+}
+
+.img4 {
+    width: 910px;
+    height: 300px;
+    grid-column: span 2;
+}
+
+.img5 {
+    width: 450px;
+    height: 300px;
+}
+
+.spanrow {
+    width: 450px;
+    height: 610px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+
+.thumbnilimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 550px;
+    height: 285px;
+    margin-bottom: 250px;
+    border: 5px solid gray;
+    border-radius: 18px;
+    padding: 5px;
+}
+
+.footerBack {
+    background-color: gray;
+}
+
+.insta {
+    width: 30px;
+    height: 30px;
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+.x {
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+}
+
+.fb {
+    width: 40px;
+    height: 40px;
+}
+
